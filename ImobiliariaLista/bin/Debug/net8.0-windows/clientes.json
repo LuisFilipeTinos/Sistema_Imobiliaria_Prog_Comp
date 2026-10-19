@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "Nome": "Mariana Albuquerque",
+    "Cpf": "787,789,328-07",
+    "Telefone": "(11) 98765-4321",
+    "Email": "mariana@email.com",
+    "Interesse": "Compra",
+    "TipoImovel": "Apartamento",
+    "Valor": 650000,
+    "Cidade": "S\u00E3o Paulo",
+    "Bairro": "Vila Mariana",
+    "Observacoes": "",
+    "Foto": "639279215391838096.jpg",
+    "DataCadastro": "2026-09-28T00:00:00-03:00"
+  },
+  {
+    "Id": 2,
+    "Nome": "Ricardo Fontes",
+    "Cpf": "792,174,218-12",
+    "Telefone": "(11) 99123-4567",
+    "Email": "ricardo@email.com",
+    "Interesse": "Aluguel",
+    "TipoImovel": "Sala comercial",
+    "Valor": 4500,
+    "Cidade": "S\u00E3o Paulo",
+    "Bairro": "Pinheiros",
+    "Observacoes": "",
+    "Foto": "639279215471895166.jpg",
+    "DataCadastro": "2026-10-06T00:00:00-03:00"
+  },
+  {
+    "Id": 3,
+    "Nome": "Helena Duarte",
+    "Cpf": "096.792.908-32",
+    "Telefone": "(19) 98222-1100",
+    "Email": "helena@email.com",
+    "Interesse": "Venda",
+    "TipoImovel": "Casa",
+    "Valor": 980000,
+    "Cidade": "Campinas",
+    "Bairro": "Cambu\u00ED",
+    "Observacoes": "",
+    "Foto": "",
+    "DataCadastro": "2026-10-11T00:00:00-03:00"
+  },
+  {
+    "Id": 4,
+    "Nome": "Camila Rocha",
+    "Cpf": "793.834.701-94",
+    "Telefone": "(21) 99654-8899",
+    "Email": "camila@email.com",
+    "Interesse": "Aluguel",
+    "TipoImovel": "Apartamento",
+    "Valor": 3200,
+    "Cidade": "Rio de Janeiro",
+    "Bairro": "Botafogo",
+    "Observacoes": "",
+    "Foto": "",
+    "DataCadastro": "2026-10-16T00:00:00-03:00"
+  }
+]
