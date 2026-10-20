@@ -3,28 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\imobiliarialista.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\imobiliarialista.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\formcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\imobiliariamysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\imobiliariamysql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\imobiliarialista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|solutionrelative:imobiliarialista\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliariamysql\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE68BEF1-98E5-4513-8331-4208D88EB7E6}|ImobiliariaMySql\\ImobiliariaMySql.csproj|solutionrelative:imobiliariamysql\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D413C58-4A53-480C-A216-EE0FA4DFB7F5}|ImobiliariaLista\\ImobiliariaLista.csproj|c:\\users\\lftin\\source\\repos\\imobiliariaroxo\\imobiliariaroxo\\imobiliarialista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,49 +78,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Cliente.cs",
-              "RelativeDocumentMoniker": "ImobiliariaLista\\Cliente.cs",
-              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Cliente.cs",
-              "RelativeToolTip": "ImobiliariaLista\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T12:16:51.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Banco.cs",
-              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Banco.cs",
-              "RelativeDocumentMoniker": "ImobiliariaLista\\Banco.cs",
-              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Banco.cs",
-              "RelativeToolTip": "ImobiliariaLista\\Banco.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAALAAAAAAAAAA==",
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "ImobiliariaLista\\FormPrincipal.Designer.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAgwLgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T18:18:27.915Z",
+              "WhenOpened": "2026-10-20T11:51:21.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormPrincipal.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "ImobiliariaLista\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs [Projeto]",
-              "RelativeToolTip": "ImobiliariaLista\\FormPrincipal.cs [Projeto]",
+              "DocumentIndex": 2,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "ImobiliariaMySql\\FormPrincipal.Designer.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAiwOwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T15:00:33.69Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-10-20T11:50:15.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "ImobiliariaLista",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\ImobiliariaLista.csproj",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\ImobiliariaLista.csproj",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\ImobiliariaLista.csproj",
+              "RelativeToolTip": "ImobiliariaLista\\ImobiliariaLista.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T11:48:47.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\Banco.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\Banco.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\Banco.cs",
+              "RelativeToolTip": "ImobiliariaMySql\\Banco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:28:05.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ImobiliariaMySql",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\ImobiliariaMySql.csproj",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+              "RelativeToolTip": "ImobiliariaMySql\\ImobiliariaMySql.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T11:27:57.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FormCadastro.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormCadastro.cs",
               "RelativeDocumentMoniker": "ImobiliariaLista\\FormCadastro.cs",
@@ -92,7 +158,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "FormCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormCadastro.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\FormCadastro.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormCadastro.cs",
+              "RelativeToolTip": "ImobiliariaLista\\FormCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T15:00:09.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
+              "RelativeToolTip": "ImobiliariaLista\\FormPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T15:00:16.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Cliente.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\Cliente.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Cliente.cs",
+              "RelativeToolTip": "ImobiliariaLista\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T12:16:51.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Banco.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\Banco.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Banco.cs",
+              "RelativeToolTip": "ImobiliariaLista\\Banco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T18:18:27.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.cs [Projeto]",
+              "RelativeToolTip": "ImobiliariaMySql\\FormPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:28:40.932Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormCadastro.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormCadastro.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\FormCadastro.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormCadastro.cs",
+              "RelativeToolTip": "ImobiliariaMySql\\FormCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:31:04.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormCadastro.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormCadastro.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\FormCadastro.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormCadastro.cs [Projeto]",
+              "RelativeToolTip": "ImobiliariaMySql\\FormCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:35:33.006Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\FormPrincipal.cs",
+              "RelativeToolTip": "ImobiliariaMySql\\FormPrincipal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:28:18.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\Cliente.cs",
+              "RelativeDocumentMoniker": "ImobiliariaMySql\\Cliente.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\Cliente.cs",
+              "RelativeToolTip": "ImobiliariaMySql\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T11:29:41.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "ImobiliariaLista\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs [Projeto]",
+              "RelativeToolTip": "ImobiliariaLista\\FormPrincipal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-18T15:00:33.69Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\Program.cs",
               "RelativeDocumentMoniker": "ImobiliariaLista\\Program.cs",
@@ -101,32 +294,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-18T18:15:54.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "ImobiliariaLista\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormPrincipal.cs",
-              "RelativeToolTip": "ImobiliariaLista\\FormPrincipal.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAjwLEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T15:00:16.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormCadastro.cs",
-              "DocumentMoniker": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormCadastro.cs",
-              "RelativeDocumentMoniker": "ImobiliariaLista\\FormCadastro.cs",
-              "ToolTip": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\FormCadastro.cs",
-              "RelativeToolTip": "ImobiliariaLista\\FormCadastro.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAqwJMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-18T15:00:09.84Z",
               "EditorCaption": ""
             }
           ]

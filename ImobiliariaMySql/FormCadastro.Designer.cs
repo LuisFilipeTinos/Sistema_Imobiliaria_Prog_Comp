@@ -28,478 +28,502 @@ namespace Imobiliaria
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlFoto = new System.Windows.Forms.Panel();
-            this.lblFotoTitulo = new System.Windows.Forms.Label();
-            this.picFoto = new System.Windows.Forms.PictureBox();
-            this.btnEscolherFoto = new System.Windows.Forms.Button();
-            this.btnRemoverFoto = new System.Windows.Forms.Button();
-            this.picIlustracao = new System.Windows.Forms.PictureBox();
-            this.pnlCampos = new System.Windows.Forms.Panel();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.lblSubtitulo = new System.Windows.Forms.Label();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.lblCpf = new System.Windows.Forms.Label();
-            this.mtbCpf = new System.Windows.Forms.MaskedTextBox();
-            this.lblTelefone = new System.Windows.Forms.Label();
-            this.mtbTelefone = new System.Windows.Forms.MaskedTextBox();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblValor = new System.Windows.Forms.Label();
-            this.numValor = new System.Windows.Forms.NumericUpDown();
-            this.lblInteresse = new System.Windows.Forms.Label();
-            this.cmbInteresse = new System.Windows.Forms.ComboBox();
-            this.lblTipo = new System.Windows.Forms.Label();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
-            this.lblCidade = new System.Windows.Forms.Label();
-            this.txtCidade = new System.Windows.Forms.TextBox();
-            this.lblBairro = new System.Windows.Forms.Label();
-            this.txtBairro = new System.Windows.Forms.TextBox();
-            this.lblObs = new System.Windows.Forms.Label();
-            this.txtObs = new System.Windows.Forms.TextBox();
-            this.lblErro = new System.Windows.Forms.Label();
-            this.btnCancelar = new System.Windows.Forms.Button();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.pnlFoto.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIlustracao)).BeginInit();
-            this.pnlCampos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numValor)).BeginInit();
-            this.SuspendLayout();
-            //
+            pnlFoto = new Panel();
+            lblFotoTitulo = new Label();
+            picFoto = new PictureBox();
+            btnEscolherFoto = new Button();
+            btnRemoverFoto = new Button();
+            picIlustracao = new PictureBox();
+            pnlCampos = new Panel();
+            lblTitulo = new Label();
+            lblSubtitulo = new Label();
+            lblNome = new Label();
+            txtNome = new TextBox();
+            lblCpf = new Label();
+            mtbCpf = new MaskedTextBox();
+            lblTelefone = new Label();
+            mtbTelefone = new MaskedTextBox();
+            lblEmail = new Label();
+            txtEmail = new TextBox();
+            lblValor = new Label();
+            numValor = new NumericUpDown();
+            lblInteresse = new Label();
+            cmbInteresse = new ComboBox();
+            lblTipo = new Label();
+            cmbTipo = new ComboBox();
+            lblCidade = new Label();
+            txtCidade = new TextBox();
+            lblBairro = new Label();
+            txtBairro = new TextBox();
+            lblObs = new Label();
+            txtObs = new TextBox();
+            lblErro = new Label();
+            btnCancelar = new Button();
+            btnSalvar = new Button();
+            pnlFoto.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picFoto).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picIlustracao).BeginInit();
+            pnlCampos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numValor).BeginInit();
+            SuspendLayout();
+            // 
             // pnlFoto
-            //
-            this.pnlFoto.BackColor = System.Drawing.Color.FromArgb(18, 17, 24);
-            this.pnlFoto.Controls.Add(this.lblFotoTitulo);
-            this.pnlFoto.Controls.Add(this.picFoto);
-            this.pnlFoto.Controls.Add(this.btnEscolherFoto);
-            this.pnlFoto.Controls.Add(this.btnRemoverFoto);
-            this.pnlFoto.Controls.Add(this.picIlustracao);
-            this.pnlFoto.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlFoto.Location = new System.Drawing.Point(0, 0);
-            this.pnlFoto.Name = "pnlFoto";
-            this.pnlFoto.Size = new System.Drawing.Size(240, 640);
-            this.pnlFoto.TabIndex = 1;
-            //
+            // 
+            pnlFoto.BackColor = Color.FromArgb(18, 17, 24);
+            pnlFoto.Controls.Add(lblFotoTitulo);
+            pnlFoto.Controls.Add(picFoto);
+            pnlFoto.Controls.Add(btnEscolherFoto);
+            pnlFoto.Controls.Add(btnRemoverFoto);
+            pnlFoto.Controls.Add(picIlustracao);
+            pnlFoto.Dock = DockStyle.Left;
+            pnlFoto.Location = new Point(0, 0);
+            pnlFoto.Margin = new Padding(4, 5, 4, 5);
+            pnlFoto.Name = "pnlFoto";
+            pnlFoto.Size = new Size(343, 1067);
+            pnlFoto.TabIndex = 1;
+            // 
             // lblFotoTitulo
-            //
-            this.lblFotoTitulo.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.lblFotoTitulo.ForeColor = System.Drawing.Color.FromArgb(196, 190, 214);
-            this.lblFotoTitulo.Location = new System.Drawing.Point(0, 24);
-            this.lblFotoTitulo.Name = "lblFotoTitulo";
-            this.lblFotoTitulo.Size = new System.Drawing.Size(240, 20);
-            this.lblFotoTitulo.TabIndex = 0;
-            this.lblFotoTitulo.Text = "FOTO DO CLIENTE";
-            this.lblFotoTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //
+            // 
+            lblFotoTitulo.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
+            lblFotoTitulo.ForeColor = Color.FromArgb(196, 190, 214);
+            lblFotoTitulo.Location = new Point(0, 40);
+            lblFotoTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblFotoTitulo.Name = "lblFotoTitulo";
+            lblFotoTitulo.Size = new Size(343, 33);
+            lblFotoTitulo.TabIndex = 0;
+            lblFotoTitulo.Text = "FOTO DO CLIENTE";
+            lblFotoTitulo.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // picFoto
-            //
-            this.picFoto.BackColor = System.Drawing.Color.FromArgb(226, 223, 236);
-            this.picFoto.Location = new System.Drawing.Point(40, 56);
-            this.picFoto.Name = "picFoto";
-            this.picFoto.Size = new System.Drawing.Size(160, 160);
-            this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picFoto.TabIndex = 1;
-            this.picFoto.TabStop = false;
-            //
+            // 
+            picFoto.BackColor = Color.FromArgb(226, 223, 236);
+            picFoto.Location = new Point(57, 93);
+            picFoto.Margin = new Padding(4, 5, 4, 5);
+            picFoto.Name = "picFoto";
+            picFoto.Size = new Size(229, 267);
+            picFoto.SizeMode = PictureBoxSizeMode.Zoom;
+            picFoto.TabIndex = 1;
+            picFoto.TabStop = false;
+            // 
             // btnEscolherFoto
-            //
-            this.btnEscolherFoto.BackColor = System.Drawing.Color.FromArgb(124, 58, 237);
-            this.btnEscolherFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEscolherFoto.FlatAppearance.BorderSize = 0;
-            this.btnEscolherFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(109, 40, 217);
-            this.btnEscolherFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEscolherFoto.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            this.btnEscolherFoto.ForeColor = System.Drawing.Color.White;
-            this.btnEscolherFoto.Location = new System.Drawing.Point(30, 236);
-            this.btnEscolherFoto.Name = "btnEscolherFoto";
-            this.btnEscolherFoto.Size = new System.Drawing.Size(180, 42);
-            this.btnEscolherFoto.TabIndex = 12;
-            this.btnEscolherFoto.Text = " Escolher foto";
-            this.btnEscolherFoto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEscolherFoto.UseVisualStyleBackColor = false;
-            this.btnEscolherFoto.Click += new System.EventHandler(this.btnEscolherFoto_Click);
-            //
+            // 
+            btnEscolherFoto.BackColor = Color.FromArgb(124, 58, 237);
+            btnEscolherFoto.Cursor = Cursors.Hand;
+            btnEscolherFoto.FlatAppearance.BorderSize = 0;
+            btnEscolherFoto.FlatAppearance.MouseOverBackColor = Color.FromArgb(109, 40, 217);
+            btnEscolherFoto.FlatStyle = FlatStyle.Flat;
+            btnEscolherFoto.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnEscolherFoto.ForeColor = Color.White;
+            btnEscolherFoto.Location = new Point(43, 393);
+            btnEscolherFoto.Margin = new Padding(4, 5, 4, 5);
+            btnEscolherFoto.Name = "btnEscolherFoto";
+            btnEscolherFoto.Size = new Size(257, 70);
+            btnEscolherFoto.TabIndex = 12;
+            btnEscolherFoto.Text = " Escolher foto";
+            btnEscolherFoto.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnEscolherFoto.UseVisualStyleBackColor = false;
+            btnEscolherFoto.Click += btnEscolherFoto_Click;
+            // 
             // btnRemoverFoto
-            //
-            this.btnRemoverFoto.BackColor = System.Drawing.Color.FromArgb(18, 17, 24);
-            this.btnRemoverFoto.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRemoverFoto.FlatAppearance.BorderSize = 0;
-            this.btnRemoverFoto.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(40, 30, 62);
-            this.btnRemoverFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemoverFoto.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.btnRemoverFoto.ForeColor = System.Drawing.Color.FromArgb(196, 190, 214);
-            this.btnRemoverFoto.Location = new System.Drawing.Point(30, 286);
-            this.btnRemoverFoto.Name = "btnRemoverFoto";
-            this.btnRemoverFoto.Size = new System.Drawing.Size(180, 32);
-            this.btnRemoverFoto.TabIndex = 13;
-            this.btnRemoverFoto.Text = "Remover foto";
-            this.btnRemoverFoto.UseVisualStyleBackColor = false;
-            this.btnRemoverFoto.Click += new System.EventHandler(this.btnRemoverFoto_Click);
-            //
+            // 
+            btnRemoverFoto.BackColor = Color.FromArgb(18, 17, 24);
+            btnRemoverFoto.Cursor = Cursors.Hand;
+            btnRemoverFoto.FlatAppearance.BorderSize = 0;
+            btnRemoverFoto.FlatAppearance.MouseOverBackColor = Color.FromArgb(40, 30, 62);
+            btnRemoverFoto.FlatStyle = FlatStyle.Flat;
+            btnRemoverFoto.Font = new Font("Segoe UI", 9.5F);
+            btnRemoverFoto.ForeColor = Color.FromArgb(196, 190, 214);
+            btnRemoverFoto.Location = new Point(43, 477);
+            btnRemoverFoto.Margin = new Padding(4, 5, 4, 5);
+            btnRemoverFoto.Name = "btnRemoverFoto";
+            btnRemoverFoto.Size = new Size(257, 53);
+            btnRemoverFoto.TabIndex = 13;
+            btnRemoverFoto.Text = "Remover foto";
+            btnRemoverFoto.UseVisualStyleBackColor = false;
+            btnRemoverFoto.Click += btnRemoverFoto_Click;
+            // 
             // picIlustracao
-            //
-            this.picIlustracao.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.picIlustracao.Location = new System.Drawing.Point(0, 323);
-            this.picIlustracao.Name = "picIlustracao";
-            this.picIlustracao.Size = new System.Drawing.Size(240, 317);
-            this.picIlustracao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picIlustracao.TabIndex = 4;
-            this.picIlustracao.TabStop = false;
-            //
+            // 
+            picIlustracao.Dock = DockStyle.Bottom;
+            picIlustracao.Location = new Point(0, 539);
+            picIlustracao.Margin = new Padding(4, 5, 4, 5);
+            picIlustracao.Name = "picIlustracao";
+            picIlustracao.Size = new Size(343, 528);
+            picIlustracao.SizeMode = PictureBoxSizeMode.Zoom;
+            picIlustracao.TabIndex = 4;
+            picIlustracao.TabStop = false;
+            // 
             // pnlCampos
-            //
-            this.pnlCampos.BackColor = System.Drawing.Color.FromArgb(246, 245, 250);
-            this.pnlCampos.Controls.Add(this.lblTitulo);
-            this.pnlCampos.Controls.Add(this.lblSubtitulo);
-            this.pnlCampos.Controls.Add(this.lblNome);
-            this.pnlCampos.Controls.Add(this.txtNome);
-            this.pnlCampos.Controls.Add(this.lblCpf);
-            this.pnlCampos.Controls.Add(this.mtbCpf);
-            this.pnlCampos.Controls.Add(this.lblTelefone);
-            this.pnlCampos.Controls.Add(this.mtbTelefone);
-            this.pnlCampos.Controls.Add(this.lblEmail);
-            this.pnlCampos.Controls.Add(this.txtEmail);
-            this.pnlCampos.Controls.Add(this.lblValor);
-            this.pnlCampos.Controls.Add(this.numValor);
-            this.pnlCampos.Controls.Add(this.lblInteresse);
-            this.pnlCampos.Controls.Add(this.cmbInteresse);
-            this.pnlCampos.Controls.Add(this.lblTipo);
-            this.pnlCampos.Controls.Add(this.cmbTipo);
-            this.pnlCampos.Controls.Add(this.lblCidade);
-            this.pnlCampos.Controls.Add(this.txtCidade);
-            this.pnlCampos.Controls.Add(this.lblBairro);
-            this.pnlCampos.Controls.Add(this.txtBairro);
-            this.pnlCampos.Controls.Add(this.lblObs);
-            this.pnlCampos.Controls.Add(this.txtObs);
-            this.pnlCampos.Controls.Add(this.lblErro);
-            this.pnlCampos.Controls.Add(this.btnCancelar);
-            this.pnlCampos.Controls.Add(this.btnSalvar);
-            this.pnlCampos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCampos.Location = new System.Drawing.Point(240, 0);
-            this.pnlCampos.Name = "pnlCampos";
-            this.pnlCampos.Size = new System.Drawing.Size(620, 640);
-            this.pnlCampos.TabIndex = 0;
-            //
+            // 
+            pnlCampos.BackColor = Color.FromArgb(246, 245, 250);
+            pnlCampos.Controls.Add(lblTitulo);
+            pnlCampos.Controls.Add(lblSubtitulo);
+            pnlCampos.Controls.Add(lblNome);
+            pnlCampos.Controls.Add(txtNome);
+            pnlCampos.Controls.Add(lblCpf);
+            pnlCampos.Controls.Add(mtbCpf);
+            pnlCampos.Controls.Add(lblTelefone);
+            pnlCampos.Controls.Add(mtbTelefone);
+            pnlCampos.Controls.Add(lblEmail);
+            pnlCampos.Controls.Add(txtEmail);
+            pnlCampos.Controls.Add(lblValor);
+            pnlCampos.Controls.Add(numValor);
+            pnlCampos.Controls.Add(lblInteresse);
+            pnlCampos.Controls.Add(cmbInteresse);
+            pnlCampos.Controls.Add(lblTipo);
+            pnlCampos.Controls.Add(cmbTipo);
+            pnlCampos.Controls.Add(lblCidade);
+            pnlCampos.Controls.Add(txtCidade);
+            pnlCampos.Controls.Add(lblBairro);
+            pnlCampos.Controls.Add(txtBairro);
+            pnlCampos.Controls.Add(lblObs);
+            pnlCampos.Controls.Add(txtObs);
+            pnlCampos.Controls.Add(lblErro);
+            pnlCampos.Controls.Add(btnCancelar);
+            pnlCampos.Controls.Add(btnSalvar);
+            pnlCampos.Dock = DockStyle.Fill;
+            pnlCampos.Location = new Point(343, 0);
+            pnlCampos.Margin = new Padding(4, 5, 4, 5);
+            pnlCampos.Name = "pnlCampos";
+            pnlCampos.Size = new Size(886, 1067);
+            pnlCampos.TabIndex = 0;
+            // 
             // lblTitulo
-            //
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Bahnschrift SemiBold", 18F);
-            this.lblTitulo.ForeColor = System.Drawing.Color.FromArgb(18, 17, 24);
-            this.lblTitulo.Location = new System.Drawing.Point(28, 20);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(160, 29);
-            this.lblTitulo.TabIndex = 100;
-            this.lblTitulo.Text = "Novo cliente";
-            //
+            // 
+            lblTitulo.AutoSize = true;
+            lblTitulo.Font = new Font("Bahnschrift SemiBold", 18F);
+            lblTitulo.ForeColor = Color.FromArgb(18, 17, 24);
+            lblTitulo.Location = new Point(40, 33);
+            lblTitulo.Margin = new Padding(4, 0, 4, 0);
+            lblTitulo.Name = "lblTitulo";
+            lblTitulo.Size = new Size(218, 43);
+            lblTitulo.TabIndex = 100;
+            lblTitulo.Text = "Novo cliente";
+            // 
             // lblSubtitulo
-            //
-            this.lblSubtitulo.AutoSize = true;
-            this.lblSubtitulo.Font = new System.Drawing.Font("Segoe UI", 9.5F);
-            this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblSubtitulo.Location = new System.Drawing.Point(30, 56);
-            this.lblSubtitulo.Name = "lblSubtitulo";
-            this.lblSubtitulo.Size = new System.Drawing.Size(200, 17);
-            this.lblSubtitulo.TabIndex = 101;
-            this.lblSubtitulo.Text = "Campos com * são obrigatórios.";
-            //
+            // 
+            lblSubtitulo.AutoSize = true;
+            lblSubtitulo.Font = new Font("Segoe UI", 9.5F);
+            lblSubtitulo.ForeColor = Color.FromArgb(113, 113, 130);
+            lblSubtitulo.Location = new Point(43, 93);
+            lblSubtitulo.Margin = new Padding(4, 0, 4, 0);
+            lblSubtitulo.Name = "lblSubtitulo";
+            lblSubtitulo.Size = new Size(280, 25);
+            lblSubtitulo.TabIndex = 101;
+            lblSubtitulo.Text = "Campos com * são obrigatórios.";
+            // 
             // lblNome
-            //
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblNome.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblNome.Location = new System.Drawing.Point(30, 92);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(105, 15);
-            this.lblNome.TabIndex = 102;
-            this.lblNome.Text = "Nome completo *";
-            //
+            // 
+            lblNome.AutoSize = true;
+            lblNome.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblNome.ForeColor = Color.FromArgb(113, 113, 130);
+            lblNome.Location = new Point(43, 153);
+            lblNome.Margin = new Padding(4, 0, 4, 0);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(161, 25);
+            lblNome.TabIndex = 102;
+            lblNome.Text = "Nome completo *";
+            // 
             // txtNome
-            //
-            this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNome.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtNome.Location = new System.Drawing.Point(30, 113);
-            this.txtNome.MaxLength = 120;
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(560, 27);
-            this.txtNome.TabIndex = 0;
-            //
+            // 
+            txtNome.BorderStyle = BorderStyle.FixedSingle;
+            txtNome.Font = new Font("Segoe UI", 11F);
+            txtNome.Location = new Point(43, 188);
+            txtNome.Margin = new Padding(4, 5, 4, 5);
+            txtNome.MaxLength = 120;
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(799, 37);
+            txtNome.TabIndex = 0;
+            // 
             // lblCpf
-            //
-            this.lblCpf.AutoSize = true;
-            this.lblCpf.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblCpf.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblCpf.Location = new System.Drawing.Point(30, 156);
-            this.lblCpf.Name = "lblCpf";
-            this.lblCpf.Size = new System.Drawing.Size(37, 15);
-            this.lblCpf.TabIndex = 103;
-            this.lblCpf.Text = "CPF *";
-            //
+            // 
+            lblCpf.AutoSize = true;
+            lblCpf.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblCpf.ForeColor = Color.FromArgb(113, 113, 130);
+            lblCpf.Location = new Point(43, 260);
+            lblCpf.Margin = new Padding(4, 0, 4, 0);
+            lblCpf.Name = "lblCpf";
+            lblCpf.Size = new Size(56, 25);
+            lblCpf.TabIndex = 103;
+            lblCpf.Text = "CPF *";
+            // 
             // mtbCpf
-            //
-            this.mtbCpf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtbCpf.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.mtbCpf.Location = new System.Drawing.Point(30, 177);
-            this.mtbCpf.Mask = "000.000.000-00";
-            this.mtbCpf.Name = "mtbCpf";
-            this.mtbCpf.Size = new System.Drawing.Size(270, 27);
-            this.mtbCpf.TabIndex = 1;
-            //
+            // 
+            mtbCpf.BorderStyle = BorderStyle.FixedSingle;
+            mtbCpf.Font = new Font("Segoe UI", 11F);
+            mtbCpf.Location = new Point(43, 295);
+            mtbCpf.Margin = new Padding(4, 5, 4, 5);
+            mtbCpf.Mask = "000\\.000\\.000-00";
+            mtbCpf.Name = "mtbCpf";
+            mtbCpf.Size = new Size(385, 37);
+            mtbCpf.TabIndex = 1;
+            // 
             // lblTelefone
-            //
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblTelefone.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblTelefone.Location = new System.Drawing.Point(320, 156);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(140, 15);
-            this.lblTelefone.TabIndex = 104;
-            this.lblTelefone.Text = "Telefone / WhatsApp *";
-            //
+            // 
+            lblTelefone.AutoSize = true;
+            lblTelefone.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblTelefone.ForeColor = Color.FromArgb(113, 113, 130);
+            lblTelefone.Location = new Point(457, 260);
+            lblTelefone.Margin = new Padding(4, 0, 4, 0);
+            lblTelefone.Name = "lblTelefone";
+            lblTelefone.Size = new Size(205, 25);
+            lblTelefone.TabIndex = 104;
+            lblTelefone.Text = "Telefone / WhatsApp *";
+            // 
             // mtbTelefone
-            //
-            this.mtbTelefone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.mtbTelefone.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.mtbTelefone.Location = new System.Drawing.Point(320, 177);
-            this.mtbTelefone.Mask = "(00) 00000-0000";
-            this.mtbTelefone.Name = "mtbTelefone";
-            this.mtbTelefone.Size = new System.Drawing.Size(270, 27);
-            this.mtbTelefone.TabIndex = 2;
-            //
+            // 
+            mtbTelefone.BorderStyle = BorderStyle.FixedSingle;
+            mtbTelefone.Font = new Font("Segoe UI", 11F);
+            mtbTelefone.Location = new Point(457, 295);
+            mtbTelefone.Margin = new Padding(4, 5, 4, 5);
+            mtbTelefone.Mask = "(00) 00000-0000";
+            mtbTelefone.Name = "mtbTelefone";
+            mtbTelefone.Size = new Size(385, 37);
+            mtbTelefone.TabIndex = 2;
+            // 
             // lblEmail
-            //
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblEmail.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblEmail.Location = new System.Drawing.Point(30, 220);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(42, 15);
-            this.lblEmail.TabIndex = 105;
-            this.lblEmail.Text = "E-mail";
-            //
+            // 
+            lblEmail.AutoSize = true;
+            lblEmail.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblEmail.ForeColor = Color.FromArgb(113, 113, 130);
+            lblEmail.Location = new Point(43, 367);
+            lblEmail.Margin = new Padding(4, 0, 4, 0);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new Size(65, 25);
+            lblEmail.TabIndex = 105;
+            lblEmail.Text = "E-mail";
+            // 
             // txtEmail
-            //
-            this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtEmail.Location = new System.Drawing.Point(30, 241);
-            this.txtEmail.MaxLength = 120;
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(270, 27);
-            this.txtEmail.TabIndex = 3;
-            //
+            // 
+            txtEmail.BorderStyle = BorderStyle.FixedSingle;
+            txtEmail.Font = new Font("Segoe UI", 11F);
+            txtEmail.Location = new Point(43, 402);
+            txtEmail.Margin = new Padding(4, 5, 4, 5);
+            txtEmail.MaxLength = 120;
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(385, 37);
+            txtEmail.TabIndex = 3;
+            // 
             // lblValor
-            //
-            this.lblValor.AutoSize = true;
-            this.lblValor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblValor.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblValor.Location = new System.Drawing.Point(320, 220);
-            this.lblValor.Name = "lblValor";
-            this.lblValor.Size = new System.Drawing.Size(130, 15);
-            this.lblValor.TabIndex = 106;
-            this.lblValor.Text = "Valor pretendido (R$)";
-            //
+            // 
+            lblValor.AutoSize = true;
+            lblValor.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblValor.ForeColor = Color.FromArgb(113, 113, 130);
+            lblValor.Location = new Point(457, 367);
+            lblValor.Margin = new Padding(4, 0, 4, 0);
+            lblValor.Name = "lblValor";
+            lblValor.Size = new Size(196, 25);
+            lblValor.TabIndex = 106;
+            lblValor.Text = "Valor pretendido (R$)";
+            // 
             // numValor
-            //
-            this.numValor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numValor.DecimalPlaces = 2;
-            this.numValor.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.numValor.Increment = new decimal(new int[] { 1000, 0, 0, 0 });
-            this.numValor.Location = new System.Drawing.Point(320, 241);
-            this.numValor.Maximum = new decimal(new int[] { 100000000, 0, 0, 0 });
-            this.numValor.Name = "numValor";
-            this.numValor.Size = new System.Drawing.Size(270, 27);
-            this.numValor.TabIndex = 4;
-            this.numValor.ThousandsSeparator = true;
-            //
+            // 
+            numValor.BorderStyle = BorderStyle.FixedSingle;
+            numValor.DecimalPlaces = 2;
+            numValor.Font = new Font("Segoe UI", 11F);
+            numValor.Increment = new decimal(new int[] { 1000, 0, 0, 0 });
+            numValor.Location = new Point(457, 402);
+            numValor.Margin = new Padding(4, 5, 4, 5);
+            numValor.Maximum = new decimal(new int[] { 100000000, 0, 0, 0 });
+            numValor.Name = "numValor";
+            numValor.Size = new Size(386, 37);
+            numValor.TabIndex = 4;
+            numValor.ThousandsSeparator = true;
+            // 
             // lblInteresse
-            //
-            this.lblInteresse.AutoSize = true;
-            this.lblInteresse.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblInteresse.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblInteresse.Location = new System.Drawing.Point(30, 284);
-            this.lblInteresse.Name = "lblInteresse";
-            this.lblInteresse.Size = new System.Drawing.Size(70, 15);
-            this.lblInteresse.TabIndex = 107;
-            this.lblInteresse.Text = "Interesse *";
-            //
+            // 
+            lblInteresse.AutoSize = true;
+            lblInteresse.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblInteresse.ForeColor = Color.FromArgb(113, 113, 130);
+            lblInteresse.Location = new Point(43, 473);
+            lblInteresse.Margin = new Padding(4, 0, 4, 0);
+            lblInteresse.Name = "lblInteresse";
+            lblInteresse.Size = new Size(102, 25);
+            lblInteresse.TabIndex = 107;
+            lblInteresse.Text = "Interesse *";
+            // 
             // cmbInteresse
-            //
-            this.cmbInteresse.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbInteresse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbInteresse.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.cmbInteresse.Items.AddRange(new object[] {
-            "Compra",
-            "Aluguel",
-            "Venda"});
-            this.cmbInteresse.Location = new System.Drawing.Point(30, 305);
-            this.cmbInteresse.Name = "cmbInteresse";
-            this.cmbInteresse.Size = new System.Drawing.Size(270, 28);
-            this.cmbInteresse.TabIndex = 5;
-            //
+            // 
+            cmbInteresse.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbInteresse.FlatStyle = FlatStyle.Flat;
+            cmbInteresse.Font = new Font("Segoe UI", 11F);
+            cmbInteresse.Items.AddRange(new object[] { "Compra", "Aluguel", "Venda" });
+            cmbInteresse.Location = new Point(43, 508);
+            cmbInteresse.Margin = new Padding(4, 5, 4, 5);
+            cmbInteresse.Name = "cmbInteresse";
+            cmbInteresse.Size = new Size(384, 38);
+            cmbInteresse.TabIndex = 5;
+            // 
             // lblTipo
-            //
-            this.lblTipo.AutoSize = true;
-            this.lblTipo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblTipo.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblTipo.Location = new System.Drawing.Point(320, 284);
-            this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(100, 15);
-            this.lblTipo.TabIndex = 108;
-            this.lblTipo.Text = "Tipo de imóvel *";
-            //
+            // 
+            lblTipo.AutoSize = true;
+            lblTipo.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblTipo.ForeColor = Color.FromArgb(113, 113, 130);
+            lblTipo.Location = new Point(457, 473);
+            lblTipo.Margin = new Padding(4, 0, 4, 0);
+            lblTipo.Name = "lblTipo";
+            lblTipo.Size = new Size(151, 25);
+            lblTipo.TabIndex = 108;
+            lblTipo.Text = "Tipo de imóvel *";
+            // 
             // cmbTipo
-            //
-            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTipo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbTipo.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.cmbTipo.Items.AddRange(new object[] {
-            "Casa",
-            "Apartamento",
-            "Cobertura",
-            "Terreno",
-            "Sala comercial",
-            "Chácara / Sítio"});
-            this.cmbTipo.Location = new System.Drawing.Point(320, 305);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(270, 28);
-            this.cmbTipo.TabIndex = 6;
-            //
+            // 
+            cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipo.FlatStyle = FlatStyle.Flat;
+            cmbTipo.Font = new Font("Segoe UI", 11F);
+            cmbTipo.Items.AddRange(new object[] { "Casa", "Apartamento", "Cobertura", "Terreno", "Sala comercial", "Chácara / Sítio" });
+            cmbTipo.Location = new Point(457, 508);
+            cmbTipo.Margin = new Padding(4, 5, 4, 5);
+            cmbTipo.Name = "cmbTipo";
+            cmbTipo.Size = new Size(384, 38);
+            cmbTipo.TabIndex = 6;
+            // 
             // lblCidade
-            //
-            this.lblCidade.AutoSize = true;
-            this.lblCidade.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblCidade.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblCidade.Location = new System.Drawing.Point(30, 348);
-            this.lblCidade.Name = "lblCidade";
-            this.lblCidade.Size = new System.Drawing.Size(55, 15);
-            this.lblCidade.TabIndex = 109;
-            this.lblCidade.Text = "Cidade *";
-            //
+            // 
+            lblCidade.AutoSize = true;
+            lblCidade.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblCidade.ForeColor = Color.FromArgb(113, 113, 130);
+            lblCidade.Location = new Point(43, 580);
+            lblCidade.Margin = new Padding(4, 0, 4, 0);
+            lblCidade.Name = "lblCidade";
+            lblCidade.Size = new Size(83, 25);
+            lblCidade.TabIndex = 109;
+            lblCidade.Text = "Cidade *";
+            // 
             // txtCidade
-            //
-            this.txtCidade.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCidade.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtCidade.Location = new System.Drawing.Point(30, 369);
-            this.txtCidade.MaxLength = 80;
-            this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(270, 27);
-            this.txtCidade.TabIndex = 7;
-            //
+            // 
+            txtCidade.BorderStyle = BorderStyle.FixedSingle;
+            txtCidade.Font = new Font("Segoe UI", 11F);
+            txtCidade.Location = new Point(43, 615);
+            txtCidade.Margin = new Padding(4, 5, 4, 5);
+            txtCidade.MaxLength = 80;
+            txtCidade.Name = "txtCidade";
+            txtCidade.Size = new Size(385, 37);
+            txtCidade.TabIndex = 7;
+            // 
             // lblBairro
-            //
-            this.lblBairro.AutoSize = true;
-            this.lblBairro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblBairro.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblBairro.Location = new System.Drawing.Point(320, 348);
-            this.lblBairro.Name = "lblBairro";
-            this.lblBairro.Size = new System.Drawing.Size(42, 15);
-            this.lblBairro.TabIndex = 110;
-            this.lblBairro.Text = "Bairro";
-            //
+            // 
+            lblBairro.AutoSize = true;
+            lblBairro.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblBairro.ForeColor = Color.FromArgb(113, 113, 130);
+            lblBairro.Location = new Point(457, 580);
+            lblBairro.Margin = new Padding(4, 0, 4, 0);
+            lblBairro.Name = "lblBairro";
+            lblBairro.Size = new Size(64, 25);
+            lblBairro.TabIndex = 110;
+            lblBairro.Text = "Bairro";
+            // 
             // txtBairro
-            //
-            this.txtBairro.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBairro.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtBairro.Location = new System.Drawing.Point(320, 369);
-            this.txtBairro.MaxLength = 80;
-            this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(270, 27);
-            this.txtBairro.TabIndex = 8;
-            //
+            // 
+            txtBairro.BorderStyle = BorderStyle.FixedSingle;
+            txtBairro.Font = new Font("Segoe UI", 11F);
+            txtBairro.Location = new Point(457, 615);
+            txtBairro.Margin = new Padding(4, 5, 4, 5);
+            txtBairro.MaxLength = 80;
+            txtBairro.Name = "txtBairro";
+            txtBairro.Size = new Size(385, 37);
+            txtBairro.TabIndex = 8;
+            // 
             // lblObs
-            //
-            this.lblObs.AutoSize = true;
-            this.lblObs.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.lblObs.ForeColor = System.Drawing.Color.FromArgb(113, 113, 130);
-            this.lblObs.Location = new System.Drawing.Point(30, 412);
-            this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(80, 15);
-            this.lblObs.TabIndex = 111;
-            this.lblObs.Text = "Observações";
-            //
+            // 
+            lblObs.AutoSize = true;
+            lblObs.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblObs.ForeColor = Color.FromArgb(113, 113, 130);
+            lblObs.Location = new Point(43, 687);
+            lblObs.Margin = new Padding(4, 0, 4, 0);
+            lblObs.Name = "lblObs";
+            lblObs.Size = new Size(121, 25);
+            lblObs.TabIndex = 111;
+            lblObs.Text = "Observações";
+            // 
             // txtObs
-            //
-            this.txtObs.AcceptsReturn = true;
-            this.txtObs.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtObs.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.txtObs.Location = new System.Drawing.Point(30, 433);
-            this.txtObs.Multiline = true;
-            this.txtObs.Name = "txtObs";
-            this.txtObs.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtObs.Size = new System.Drawing.Size(560, 72);
-            this.txtObs.TabIndex = 9;
-            //
+            // 
+            txtObs.AcceptsReturn = true;
+            txtObs.BorderStyle = BorderStyle.FixedSingle;
+            txtObs.Font = new Font("Segoe UI", 11F);
+            txtObs.Location = new Point(43, 722);
+            txtObs.Margin = new Padding(4, 5, 4, 5);
+            txtObs.Multiline = true;
+            txtObs.Name = "txtObs";
+            txtObs.ScrollBars = ScrollBars.Vertical;
+            txtObs.Size = new Size(799, 119);
+            txtObs.TabIndex = 9;
+            // 
             // lblErro
-            //
-            this.lblErro.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
-            this.lblErro.ForeColor = System.Drawing.Color.FromArgb(192, 57, 43);
-            this.lblErro.Location = new System.Drawing.Point(30, 516);
-            this.lblErro.Name = "lblErro";
-            this.lblErro.Size = new System.Drawing.Size(560, 24);
-            this.lblErro.TabIndex = 112;
-            //
+            // 
+            lblErro.Font = new Font("Segoe UI", 9.5F, FontStyle.Bold);
+            lblErro.ForeColor = Color.FromArgb(192, 57, 43);
+            lblErro.Location = new Point(43, 860);
+            lblErro.Margin = new Padding(4, 0, 4, 0);
+            lblErro.Name = "lblErro";
+            lblErro.Size = new Size(800, 40);
+            lblErro.TabIndex = 112;
+            // 
             // btnCancelar
-            //
-            this.btnCancelar.BackColor = System.Drawing.Color.White;
-            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(226, 223, 236);
-            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(237, 235, 244);
-            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancelar.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
-            this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(18, 17, 24);
-            this.btnCancelar.Location = new System.Drawing.Point(296, 562);
-            this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(140, 46);
-            this.btnCancelar.TabIndex = 11;
-            this.btnCancelar.Text = " Cancelar";
-            this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCancelar.UseVisualStyleBackColor = false;
-            //
+            // 
+            btnCancelar.BackColor = Color.White;
+            btnCancelar.Cursor = Cursors.Hand;
+            btnCancelar.DialogResult = DialogResult.Cancel;
+            btnCancelar.FlatAppearance.BorderColor = Color.FromArgb(226, 223, 236);
+            btnCancelar.FlatAppearance.MouseOverBackColor = Color.FromArgb(237, 235, 244);
+            btnCancelar.FlatStyle = FlatStyle.Flat;
+            btnCancelar.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
+            btnCancelar.ForeColor = Color.FromArgb(18, 17, 24);
+            btnCancelar.Location = new Point(423, 937);
+            btnCancelar.Margin = new Padding(4, 5, 4, 5);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(200, 77);
+            btnCancelar.TabIndex = 11;
+            btnCancelar.Text = " Cancelar";
+            btnCancelar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnCancelar.UseVisualStyleBackColor = false;
+            // 
             // btnSalvar
-            //
-            this.btnSalvar.BackColor = System.Drawing.Color.FromArgb(124, 58, 237);
-            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSalvar.FlatAppearance.BorderSize = 0;
-            this.btnSalvar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(109, 40, 217);
-            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 10.5F, System.Drawing.FontStyle.Bold);
-            this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(450, 562);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(140, 46);
-            this.btnSalvar.TabIndex = 10;
-            this.btnSalvar.Text = " Salvar";
-            this.btnSalvar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            //
+            // 
+            btnSalvar.BackColor = Color.FromArgb(124, 58, 237);
+            btnSalvar.Cursor = Cursors.Hand;
+            btnSalvar.FlatAppearance.BorderSize = 0;
+            btnSalvar.FlatAppearance.MouseOverBackColor = Color.FromArgb(109, 40, 217);
+            btnSalvar.FlatStyle = FlatStyle.Flat;
+            btnSalvar.Font = new Font("Segoe UI", 10.5F, FontStyle.Bold);
+            btnSalvar.ForeColor = Color.White;
+            btnSalvar.Location = new Point(643, 937);
+            btnSalvar.Margin = new Padding(4, 5, 4, 5);
+            btnSalvar.Name = "btnSalvar";
+            btnSalvar.Size = new Size(200, 77);
+            btnSalvar.TabIndex = 10;
+            btnSalvar.Text = " Salvar";
+            btnSalvar.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSalvar.UseVisualStyleBackColor = false;
+            btnSalvar.Click += btnSalvar_Click;
+            // 
             // FormCadastro
-            //
-            this.AcceptButton = this.btnSalvar;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(246, 245, 250);
-            this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(860, 640);
-            this.Controls.Add(this.pnlCampos);
-            this.Controls.Add(this.pnlFoto);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "FormCadastro";
-            this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Cadastro de cliente";
-            this.Load += new System.EventHandler(this.FormCadastro_Load);
-            this.pnlFoto.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picIlustracao)).EndInit();
-            this.pnlCampos.ResumeLayout(false);
-            this.pnlCampos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numValor)).EndInit();
-            this.ResumeLayout(false);
+            // 
+            AcceptButton = btnSalvar;
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(246, 245, 250);
+            CancelButton = btnCancelar;
+            ClientSize = new Size(1229, 1067);
+            Controls.Add(pnlCampos);
+            Controls.Add(pnlFoto);
+            Font = new Font("Segoe UI", 9F);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(4, 5, 4, 5);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "FormCadastro";
+            ShowInTaskbar = false;
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Cadastro de cliente";
+            Load += FormCadastro_Load;
+            pnlFoto.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)picFoto).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picIlustracao).EndInit();
+            pnlCampos.ResumeLayout(false);
+            pnlCampos.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)numValor).EndInit();
+            ResumeLayout(false);
 
         }
 

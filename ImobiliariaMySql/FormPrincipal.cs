@@ -21,7 +21,6 @@ namespace Imobiliaria
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
             CarregarImagens();
-            lblArmazenamento.Text = "ARMAZENAMENTO\n" + Banco.Descricao;
 
             try
             {
@@ -199,7 +198,6 @@ namespace Imobiliaria
         private void btnMenuSobre_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Horizonte Imóveis - Cadastro de Clientes\n\n" +
-                "Armazenamento: " + Banco.Descricao + "\n\n" +
                 "Dica: dê um duplo clique em um cliente para editar.",
                 "Sobre o sistema", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

@@ -32,3 +32,4 @@ C:\Users\lftin\source\repos\ImobiliariaRoxo\ImobiliariaRoxo\ImobiliariaLista\obj
 C:\Users\lftin\source\repos\ImobiliariaRoxo\ImobiliariaRoxo\ImobiliariaLista\obj\Debug\net8.0-windows\Imobiliaria.FormCadastro.resources
 C:\Users\lftin\source\repos\ImobiliariaRoxo\ImobiliariaRoxo\ImobiliariaLista\obj\Debug\net8.0-windows\Imobiliaria.FormPrincipal.resources
 C:\Users\lftin\source\repos\ImobiliariaRoxo\ImobiliariaRoxo\ImobiliariaLista\obj\Debug\net8.0-windows\ImobiliariaLista.csproj.GenerateResource.cache
+C:\Users\lftin\source\repos\ImobiliariaRoxo\ImobiliariaRoxo\ImobiliariaLista\obj\Debug\net8.0-windows\ImobiliariaLista.sourcelink.json

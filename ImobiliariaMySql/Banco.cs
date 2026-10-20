@@ -6,10 +6,6 @@ namespace Imobiliaria
     // Os formulários só chamam: Banco.Listar, Banco.Inserir, Banco.Atualizar...
     public static class Banco
     {
-        public static string Descricao = "MySQL · banco imobiliaria";
-
-        // AJUSTE AQUI: usuário (Uid) e senha (Pwd) do seu MySQL.
-        // XAMPP/WAMP normalmente usam Uid=root e senha em branco.
         static string conexao = "Server=localhost;Port=3306;Database=imobiliaria;Uid=root;Pwd=;" +
                                 "SslMode=None;AllowPublicKeyRetrieval=True;";
 

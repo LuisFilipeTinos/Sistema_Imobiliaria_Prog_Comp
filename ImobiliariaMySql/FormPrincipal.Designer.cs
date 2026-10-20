@@ -235,7 +235,7 @@ namespace Imobiliaria
             this.lblArmazenamento.Padding = new System.Windows.Forms.Padding(22, 0, 0, 0);
             this.lblArmazenamento.Size = new System.Drawing.Size(230, 54);
             this.lblArmazenamento.TabIndex = 7;
-            this.lblArmazenamento.Text = "ARMAZENAMENTO";
+            this.lblArmazenamento.Text = "";
             this.lblArmazenamento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             //
             // picIlustracao
