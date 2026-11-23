@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\ImobiliariaLista.csproj",
+      "projectUniqueName": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaLista\\ImobiliariaLista.csproj",
       "projectName": "ImobiliariaLista",
-      "projectPath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\ImobiliariaLista.csproj",
+      "projectPath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaLista\\ImobiliariaLista.csproj",
       "packagesPath": "C:\\Users\\lftin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaLista\\obj\\",
+      "outputPath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaLista\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj": {}
+    "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj": {
+    "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+        "projectUniqueName": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
         "projectName": "ImobiliariaMySql",
-        "projectPath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+        "projectPath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
         "packagesPath": "C:\\Users\\lftin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\obj\\",
+        "outputPath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

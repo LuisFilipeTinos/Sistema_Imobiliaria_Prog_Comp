@@ -6,8 +6,7 @@ namespace Imobiliaria
     // Os formulários só chamam: Banco.Listar, Banco.Inserir, Banco.Atualizar...
     public static class Banco
     {
-        static string conexao = "Server=localhost;Port=3306;Database=imobiliaria;Uid=root;Pwd=;" +
-                                "SslMode=None;AllowPublicKeyRetrieval=True;";
+        static string conexao = "Server=localhost;Port=3306;Database=imobiliaria;Uid=root;Pwd=;";
 
         // Testa a conexão quando o programa abre
         public static void Carregar()
@@ -93,6 +92,33 @@ namespace Imobiliaria
                 cmd.ExecuteNonQuery();
             }
         }
+
+        //SQL Injection:
+        //Para testar a vulnerabilidade: Teste'; DELETE FROM clientes; -- 
+
+        //public static void Atualizar(Cliente cliente)
+        //{
+        //    using (MySqlConnection con = new MySqlConnection(conexao))
+        //    {
+        //        con.Open();
+
+        //        string sql = "UPDATE clientes SET " +
+        //                     "nome = '" + cliente.Nome + "', " +
+        //                     "cpf = '" + cliente.Cpf + "', " +
+        //                     "telefone = '" + cliente.Telefone + "', " +
+        //                     "email = '" + cliente.Email + "', " +
+        //                     "interesse = '" + cliente.Interesse + "', " +
+        //                     "tipo_imovel = '" + cliente.TipoImovel + "', " +
+        //                     "valor = '" + cliente.Valor + "', " +
+        //                     "cidade = '" + cliente.Cidade + "', " +
+        //                     "bairro = '" + cliente.Bairro + "', " +
+        //                     "observacoes = '" + cliente.Observacoes + "' " +
+        //                     "WHERE id = " + cliente.Id;
+
+        //        MySqlCommand cmd = new MySqlCommand(sql, con);
+        //        cmd.ExecuteNonQuery();
+        //    }
+        //}
 
         public static void Excluir(int id)
         {

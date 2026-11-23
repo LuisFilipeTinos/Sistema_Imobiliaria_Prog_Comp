@@ -1,12 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "tvT+eSO/ZO0=",
+  "dgSpecHash": "VOcE4ZftGIA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lftin\\source\\repos\\ImobiliariaRoxo\\ImobiliariaRoxo\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+  "projectFilePath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lftin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\lftin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\lftin\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "O pacote 'MySqlConnector' 2.4.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-473q-m89c-ghf8",
+      "projectPath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\lftin\\OneDrive\\Desktop\\Sistema_Imobiliaria_Prog_Comp\\ImobiliariaMySql\\ImobiliariaMySql.csproj",
+      "libraryId": "MySqlConnector",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
 }
